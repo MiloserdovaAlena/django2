@@ -1,0 +1,22 @@
+{% extends 'onlinerating/base.html' %}
+{% load static %}
+
+{% block title %}Список голосований{% endblock %}
+
+{% block content %}
+    <h1>Фидбек о руководителе</h1>
+
+    <h2>Оставьте ваш отзыв:</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Отправить</button>
+    </form>
+
+    <h2>Существующие отзывы:</h2>
+    <ul>
+        {% for feedback in feedbacks %}
+            <li>{{ feedback.user.username }}: {{ feedback.feedback }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "django",
+            "name": "Django configuration",
+            "command": "runserver",
+            "manageFilePath": "manage.py",
+        },
+
+    ]
+}

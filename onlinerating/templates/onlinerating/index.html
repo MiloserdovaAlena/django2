@@ -1,0 +1,18 @@
+{% extends 'onlinerating/base.html' %}
+{% load static %}
+
+{% block title %}Список голосований{% endblock %}
+
+{% block content %}
+    <div class="wrapper">
+
+        <h1>Список фидбеков</h1>
+        <ul>
+            <li><a href="{% url 'onlinerating:employee_feedback' %}">Отзыв о сотруднике!</a></li>
+            <li><a href="{% url 'onlinerating:manager_feedback' %}">Ответы на вопросы о руководителе</a></li>
+            <li><a href="{% url 'onlinerating:self_feedback' %}">Отзыв о себе!</a></li>
+            <li><a href="{% url 'onlinerating:colleague_feedback' %}">Отзывы о коллегах!</a></li>
+            <li><a href="{% url 'onlinerating:feedback' %}">Все отзывы!</a></li>
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,82 @@
+[
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "feedback": "Отличный коллега! Всегда готов помочь."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "feedback": "Коллега с отличными коммуникативными навыками."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "feedback": "Сотрудничество с этим коллегой - удовольствие."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "feedback": "Коллега обладает выдающимися навыками."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "feedback": "Отличный специалист в своей области."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "feedback": "Коллега всегда предоставляет полезную информацию."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "feedback": "С этим коллегой легко и приятно работать."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "feedback": "Коллега всегда приходит на помощь в сложных ситуациях."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 9,
+        "fields": {
+            "user": 9,
+            "feedback": "Отличный командный игрок."
+        }
+    },
+    {
+        "model": "onlinerating.colleaguefeedback",
+        "pk": 10,
+        "fields": {
+            "user": 10,
+            "feedback": "С этим коллегой всегда интересно обсуждать проекты."
+        }
+    }
+]

@@ -1,0 +1,20 @@
+{% extends 'onlinerating/base.html' %}
+{% load static %}
+
+{% block title %}Список голосований{% endblock %}
+
+{% block content %}
+    <h2>Отзывы о коллегах:</h2>
+    <ul>
+        {% for feedback in colleague_feedback %}
+            <li>{{ feedback.user.username }}: {{ feedback.feedback }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Отзывы о сотрудниках:</h2>
+    <ul>
+        {% for feedback in employee_feedback %}
+            <li>{{ feedback.user.username }}: {{ feedback.feedback }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
